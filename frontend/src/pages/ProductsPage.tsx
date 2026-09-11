@@ -1,16 +1,20 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Plus, Package } from 'lucide-react';
 import { productsApi } from '../api/resources';
+import ProductModal from '../components/ProductModal';
 import type { Product } from '../types';
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showAdd, setShowAdd] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
 
-  useEffect(() => {
+  function load() {
     productsApi.list().then(setProducts).finally(() => setLoading(false));
-  }, []);
+  }
+
+  useEffect(load, []);
 
   return (
     <div>
@@ -19,9 +23,9 @@ export default function ProductsPage() {
           <div className="page-title">Products</div>
           <div className="page-subtitle">Products and their bill of materials</div>
         </div>
-        <Link to="/products/new" className="btn btn-primary">
+        <button className="btn btn-primary" onClick={() => setShowAdd(true)}>
           <Plus size={15} /> New product
-        </Link>
+        </button>
       </div>
 
       {loading ? (
@@ -47,12 +51,8 @@ export default function ProductsPage() {
             </thead>
             <tbody>
               {products.map((p) => (
-                <tr key={p.id}>
-                  <td>
-                    <Link to={`/products/${p.id}`} style={{ color: 'var(--accent)', fontWeight: 500, textDecoration: 'none' }}>
-                      {p.name}
-                    </Link>
-                  </td>
+                <tr key={p.id} onClick={() => setEditingId(p.id)} style={{ cursor: 'pointer' }}>
+                  <td style={{ color: 'var(--accent)', fontWeight: 500 }}>{p.name}</td>
                   <td>{p.sku || '—'}</td>
                   <td>{p.category || '—'}</td>
                   <td style={{ textTransform: 'capitalize' }}>{p.productionCycle}</td>
@@ -62,6 +62,11 @@ export default function ProductsPage() {
             </tbody>
           </table>
         </div>
+      )}
+
+      {showAdd && <ProductModal onClose={() => setShowAdd(false)} onSaved={load} />}
+      {editingId && (
+        <ProductModal productId={editingId} onClose={() => setEditingId(null)} onSaved={load} />
       )}
     </div>
   );

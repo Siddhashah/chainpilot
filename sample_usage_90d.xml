@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usageData>
+  <entry>
+    <date>2026-06-13</date>
+    <quantity>46</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-14</date>
+    <quantity>55</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-15</date>
+    <quantity>130</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-06-16</date>
+    <quantity>139</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-17</date>
+    <quantity>155</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-06-18</date>
+    <quantity>146</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-06-19</date>
+    <quantity>124</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-06-20</date>
+    <quantity>61</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-21</date>
+    <quantity>30</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-22</date>
+    <quantity>124</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-23</date>
+    <quantity>150</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-24</date>
+    <quantity>146</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-25</date>
+    <quantity>151</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-26</date>
+    <quantity>153</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-06-27</date>
+    <quantity>59</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-28</date>
+    <quantity>67</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-06-29</date>
+    <quantity>145</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-06-30</date>
+    <quantity>149</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-01</date>
+    <quantity>145</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-02</date>
+    <quantity>140</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-03</date>
+    <quantity>142</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-04</date>
+    <quantity>56</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-05</date>
+    <quantity>54</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-06</date>
+    <quantity>169</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-07</date>
+    <quantity>153</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-08</date>
+    <quantity>145</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-07-09</date>
+    <quantity>138</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-10</date>
+    <quantity>166</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-11</date>
+    <quantity>72</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-12</date>
+    <quantity>59</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-13</date>
+    <quantity>165</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-14</date>
+    <quantity>151</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-15</date>
+    <quantity>148</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-16</date>
+    <quantity>153</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-17</date>
+    <quantity>143</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-07-18</date>
+    <quantity>59</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-19</date>
+    <quantity>34</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-20</date>
+    <quantity>132</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-21</date>
+    <quantity>149</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-07-22</date>
+    <quantity>175</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-23</date>
+    <quantity>167</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-07-24</date>
+    <quantity>170</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-25</date>
+    <quantity>64</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-26</date>
+    <quantity>65</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-07-27</date>
+    <quantity>178</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-28</date>
+    <quantity>173</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-29</date>
+    <quantity>178</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-30</date>
+    <quantity>146</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-07-31</date>
+    <quantity>153</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-01</date>
+    <quantity>79</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-02</date>
+    <quantity>63</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-03</date>
+    <quantity>178</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-04</date>
+    <quantity>163</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-08-05</date>
+    <quantity>167</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-06</date>
+    <quantity>162</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-07</date>
+    <quantity>184</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-08</date>
+    <quantity>44</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-09</date>
+    <quantity>59</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-10</date>
+    <quantity>192</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-11</date>
+    <quantity>163</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-12</date>
+    <quantity>167</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-08-13</date>
+    <quantity>184</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-14</date>
+    <quantity>181</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-15</date>
+    <quantity>64</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-16</date>
+    <quantity>60</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-17</date>
+    <quantity>182</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-18</date>
+    <quantity>189</quantity>
+    <notes>Rush order</notes>
+  </entry>
+  <entry>
+    <date>2026-08-19</date>
+    <quantity>187</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-20</date>
+    <quantity>176</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-21</date>
+    <quantity>177</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-22</date>
+    <quantity>60</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-23</date>
+    <quantity>69</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-24</date>
+    <quantity>170</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-08-25</date>
+    <quantity>187</quantity>
+    <notes>Scheduled production run</notes>
+  </entry>
+  <entry>
+    <date>2026-08-26</date>
+    <quantity>179</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-27</date>
+    <quantity>193</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-28</date>
+    <quantity>215</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-08-29</date>
+    <quantity>69</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-30</date>
+    <quantity>63</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-08-31</date>
+    <quantity>187</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-01</date>
+    <quantity>200</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-02</date>
+    <quantity>175</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-03</date>
+    <quantity>199</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-04</date>
+    <quantity>208</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-05</date>
+    <quantity>63</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-09-06</date>
+    <quantity>74</quantity>
+    <notes>Reduced shift</notes>
+  </entry>
+  <entry>
+    <date>2026-09-07</date>
+    <quantity>205</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-08</date>
+    <quantity>175</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-09</date>
+    <quantity>195</quantity>
+    <notes>Normal production</notes>
+  </entry>
+  <entry>
+    <date>2026-09-10</date>
+    <quantity>208</quantity>
+    <notes>Rush order</notes>
+  </entry>
+</usageData>

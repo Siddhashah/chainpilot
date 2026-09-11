@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { ChevronLeft, ChevronRight, Grid3x3, List, Plus, X } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Grid3x3, List, Plus } from 'lucide-react';
 import { calendarApi } from '../api/resources';
+import Modal from '../components/Modal';
 import type { CalendarEvent } from '../types';
 
 type ViewMode = 'month' | 'agenda';
@@ -196,40 +197,29 @@ export default function CalendarPage() {
       )}
 
       {showForm && (
-        <div
-          style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 100 }}
-          onClick={() => setShowForm(false)}
-        >
-          <div className="card" style={{ padding: 20, width: 360 }} onClick={(e) => e.stopPropagation()}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-              <span style={{ fontWeight: 600, fontSize: 14 }}>New event</span>
-              <button onClick={() => setShowForm(false)} style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex' }}>
-                <X size={16} />
-              </button>
+        <Modal title="New event" onClose={() => setShowForm(false)} width={360}>
+          <form onSubmit={handleCreate}>
+            <div className="form-group">
+              <label className="label">Title</label>
+              <input className="input" required value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} />
             </div>
-            <form onSubmit={handleCreate}>
-              <div className="form-group">
-                <label className="label">Title</label>
-                <input className="input" required value={form.title} onChange={(e) => setForm({ ...form, title: e.target.value })} />
-              </div>
-              <div className="form-group">
-                <label className="label">Date</label>
-                <input className="input" type="date" required value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} />
-              </div>
-              <div className="form-group">
-                <label className="label">Priority</label>
-                <select className="input" value={form.priority} onChange={(e) => setForm({ ...form, priority: e.target.value })}>
-                  <option value="low">Low</option>
-                  <option value="medium">Medium</option>
-                  <option value="high">High</option>
-                </select>
-              </div>
-              <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-                Create event
-              </button>
-            </form>
-          </div>
-        </div>
+            <div className="form-group">
+              <label className="label">Date</label>
+              <input className="input" type="date" required value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} />
+            </div>
+            <div className="form-group">
+              <label className="label">Priority</label>
+              <select className="input" value={form.priority} onChange={(e) => setForm({ ...form, priority: e.target.value })}>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+            <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+              Create event
+            </button>
+          </form>
+        </Modal>
       )}
     </div>
   );

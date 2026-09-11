@@ -34,13 +34,24 @@ export async function logUsage(userId: string, data: Record<string, unknown>) {
   if (!material) throw new AppError('Material not found', 404);
 
   let entry = await UsageEntry.findOne({ userId, materialId, date });
+  let stockDelta: number;
+
   if (entry) {
+    // Re-logging the same date: only deplete stock by the *change* in
+    // quantity, so re-saving the same value twice doesn't double-count.
+    stockDelta = quantity - entry.quantity;
     entry.quantity = quantity;
     entry.notes = notes;
     entry.source = 'manual';
     await entry.save();
   } else {
+    stockDelta = quantity;
     entry = await UsageEntry.create({ userId, materialId, date, quantity, notes, source: 'manual' });
+  }
+
+  if (stockDelta !== 0) {
+    material.currentStock = Math.max(0, (material.currentStock || 0) - stockDelta);
+    await material.save();
   }
 
   await updateRollingAverage(userId, materialId);

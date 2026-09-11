@@ -7,9 +7,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import ProductsPage from './pages/ProductsPage';
-import ProductDetailPage from './pages/ProductDetailPage';
 import InventoryPage from './pages/InventoryPage';
-import MaterialDetailPage from './pages/MaterialDetailPage';
 import PredictionsPage from './pages/PredictionsPage';
 import CalendarPage from './pages/CalendarPage';
 
@@ -26,9 +24,7 @@ export default function App() {
               <Route element={<Layout />}>
                 <Route path="/" element={<DashboardPage />} />
                 <Route path="/products" element={<ProductsPage />} />
-                <Route path="/products/:id" element={<ProductDetailPage />} />
                 <Route path="/inventory" element={<InventoryPage />} />
-                <Route path="/inventory/:id" element={<MaterialDetailPage />} />
                 <Route path="/predictions" element={<PredictionsPage />} />
                 <Route path="/calendar" element={<CalendarPage />} />
               </Route>
